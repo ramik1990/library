@@ -125,3 +125,86 @@ main {
 }
 /*==========//Welcome================*/
 
+/*==========ABOUT================*/
+.about {
+    width: 1440px;
+    height: 837px;
+}
+.about .section-title {
+    width: 106px;
+    height: 61px;
+    position: relative;
+    margin: 20px 667px 0px 667px;
+}
+.about .section-title h2 {
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.about .section-title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: #0C0C0E;
+    bottom: 0;
+    left: 26.5px;
+}
+.about p {
+    display: block;
+    width: 1440px;
+    height: 40px;
+    margin: 40px 0 20px 0;
+    padding: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+}
+.images-items {
+    width: 1400px;
+    height: 560px;
+    padding: 0 20px;
+    display: flex;
+    gap: 25px;
+}
+.carousel-pagination {
+    margin: 40px 686px;
+    padding: 0;
+    display: flex;
+    gap: 10px;    
+    width: 68px;
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item-area {
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #0C0C0E;
+}
+.carousel-item-active {
+    background: #BB945F;
+}
+/*==========//ABOUT================*/
+

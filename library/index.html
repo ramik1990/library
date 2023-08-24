@@ -11,7 +11,7 @@
         <h1>Brooklyn Public Library</h1>
         <nav>
             <ul>
-                <li><a href="#">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#">Favorites</a></li>
                 <li><a href="#">Coffee shop</a></li>
                 <li><a href="#">Contacts</a></li>
@@ -21,11 +21,33 @@
         <img class="icon_profile" src="images/icon_profile.svg" alt="icon_profile">
     </header>
     <main>
-        <section class="welcome">
+        <section class="welcome" id="welcome">
             <div class="overlay"></div>
             <div class="welcome-bg">
                 <h2>Welcome <br> to the Brooklyn Library</h2>
             </div>
+        </section>
+        <section class="about" id="about">
+            <div class="section-title">
+                <h2>About</h2>
+            </div>
+            <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</p>
+            <div class="images-items">
+                <img src="images/carousel/image1.png" alt="image1">
+                <img src="images/carousel/image2.png" alt="image2">
+                <img src="images/carousel/image3.png" alt="image3">
+            </div>         
+            <div class="carousel-pagination">
+                <div class="carousel-item-area">
+                    <div class="carousel-item carousel-item-active"></div>
+                </div>
+                <div class="carousel-item-area">
+                    <div class="carousel-item"></div>
+                </div>
+                <div class="carousel-item-area">
+                    <div class="carousel-item"></div>
+                </div>
+            </div>   
         </section>
     </main>
 </body>
