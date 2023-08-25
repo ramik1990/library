@@ -17,7 +17,7 @@ html, body {
 }
 body {
     width: 1440px;
-    border: 1px rgb(187, 187, 187) solid;
+    /* border: 1px rgb(187, 187, 187) solid; */
 }
 /*==========Header================*/
 header {
@@ -207,4 +207,98 @@ main {
     background: #BB945F;
 }
 /*==========//ABOUT================*/
+
+/*==========Favorites================*/
+.favorites {
+    width: 1440px;
+    height: 1439px;
+}
+.favorites .section-title {
+    width: 160px;
+    height: 61px;
+    position: relative;
+    margin: 0px 640px 0px 640px;
+}
+.favorites .section-title h2 {
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.favorites .section-title::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: #0C0C0E;
+    bottom: 0;
+    left: 55px;
+}
+.favorites p {
+    margin: 40px 0 40px 0;
+    padding-left: 20px;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.seasons {
+    width: 700px;
+    height: 24px;
+    margin: 0 0 40px 0;
+    display: flex;
+    gap: 90px;
+}
+.season-time-wrapper {
+    width: 120px;
+    margin: 0 0 0 50px;
+    padding: 0;
+    position: relative;
+}
+.seasons input {
+    cursor: pointer;
+    display: none;
+}
+.seasons label {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+.seasons label::before {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    border: 2px #000 solid;
+    border-radius: 50%;
+    left: -33px;
+    top: 3.5px;
+}
+.seasons input:checked + label{
+    font-weight: 700;
+}
+.seasons input:checked + label::after {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+    border-radius: 50%;
+    left: -28px;
+    top: 9px;
+}
+
+/*==========//Favorites================*/
+
 
