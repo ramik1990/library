@@ -397,7 +397,7 @@ main {
     bottom: 15px;
 }
 .favorites-button-buy:hover {
-    transition: linear 0.5s;
+    transition: linear 0.3s;
     background: #BB945F;
 }
 .favorites-book-image {
@@ -406,6 +406,10 @@ main {
     position: absolute;
     bottom: -1px;
     right: -40px;
+}
+.favorites-spring-time,
+.favorites-summer-time, .favorites-autumn-time {
+    display: none;
 }
 /*==========//Favorites================*/
 
