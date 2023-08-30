@@ -470,6 +470,7 @@ main {
     padding: 0;
     display: flex;
     column-gap: 480px;
+    flex-wrap: wrap;
 }
 .coffee-tea {
     width: 438px;
@@ -533,8 +534,173 @@ main {
     width: 100px;
     height: 1px;
     background: #BB945F;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.desserts-cakes-title {
+    text-align: right;
+    height: 40px;
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.desserts-cakes-items {
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 64px;
+}
+.desserts-cakes-items hr {
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.desserts-cakes-items span:nth-child(1) {
+    /* width: 233px; */
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: right;
+}
+.desserts-cakes-items span:nth-child(2) { 
+    width: 31px;
+    height: 40px;
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
 }
 /*==========//coffee-shop================*/
+
+/*==========our contacts================*/
+.our-contacts {
+    display: flex;
+    width: 1400px;
+    padding: 0 20px 40px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.our-contacts .section-title {
+    margin: 0;
+    padding: 0;
+    width: 242px;
+    height: 61px;
+    position: relative;
+}
+.our-contacts .section-title::after {
+    content: '';
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #0C0C0E;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+.our-contacts .section-title h2 {
+    margin: 0;
+    padding: 0;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.contacts-info {
+    width: 1400px;
+    height: 414px;
+    display: flex;
+    gap: 201px;
+}
+.contacts-info-col1 {
+    width: 506px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contacts-info-col2 {
+    width: 696px;
+    height: 414px;
+    background: url('images/map.png');
+}
+.contacts-info-col1-row1 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.contacts-info-col1-row2, .contacts-info-col1-row3, .contacts-info-col1-row4 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: left;
+}
+.contacts-info-col1-row3 {
+    margin: 20px 0;
+}
+.contacts-info-col1-row5 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.contacts-info-col1-row6 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+/*==========//our contacts================*/
 
 
 
