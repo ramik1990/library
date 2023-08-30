@@ -703,4 +703,200 @@ main {
 /*==========//our contacts================*/
 
 
+/*==========digital library cards================*/
+.digital-library-cards {
+    width: 1400px;
+    height: 553px;
+    padding: 20px 20px 41px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.digital-library-cards .section-title {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 372px;
+    height: 61px !important;
+}
+.digital-library-cards .section-title::after { 
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #0C0C0E;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+.digital-library-cards .section-title h2 {
+    margin: 0;
+    padding: 0;
+    width: 374px;
+    height: 40px;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
+}
+.digital-library-cards-row {
+    width: 100%;
+    height: 453px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 344px ;
+}
+.digital-library-cards-col1 {
+    width: 600px;
+    height: 453px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.digital-library-cards-col2 {
+    width: 456px;
+    height: 253px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 35px;
+}
+.digital-library-cards-col1-title {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.digital-library-cards-col1-body {
+    width: 554px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 30px 20px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 0;
+    border: 3px solid #BB945F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.digital-library-cards-col1-body .gold-bg {
+    margin: 17px;
+    padding: 20px;
+    width: 520px;
+    height: 232px;
+    background: #BB945F;
+    display: flex;
+    flex-direction: column;
+}
+.gold-bg-title {
+    color: #000;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+}
+.gold-bg-input {
+    width: 500px;
+    height: 50px;
+    flex-shrink: 0; 
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;  
+    padding: 8px 0 8px 20px;
+}
+
+.gold-bg-input:nth-child(2) {
+    margin: 20px 0 25px 0;
+}
+.digital-library-cards-col1-button {
+    margin: 0;
+    padding: 10px 38px;
+    background-color: #fff;
+    width: 242px;
+    height: 44px;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+}
+.digital-library-cards-col2-title {
+    color: #000;
+    text-align: right;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+.digital-library-cards-col2-text {
+    color: #000;
+    text-align: right;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.digital-library-cards-col2-buttons {
+    width: 170px;
+    height: 30px;
+    display: flex;
+    gap: 20px;
+}
+.digital-library-cards-col2-buttons button{
+    display: flex;
+    width: 75px;
+    height: 30px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    background-color: #fff;
+    cursor: pointer;
+}
+/*==========//digital library cards================*/
+
+
 
